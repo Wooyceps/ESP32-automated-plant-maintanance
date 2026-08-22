@@ -5,7 +5,7 @@
 
 static const char *TAG = "SENSORS";
 
-// Wspolna magistrala I2C: SDA -> D4 (GPIO22), SCL -> D5 (GPIO23)
+// Wspolna magistrala I2C: SDA -> D4 (GPIO22) / SCL -> D5 (GPIO23)
 #define I2C_PORT       I2C_NUM_0
 #define I2C_SDA_GPIO   22
 #define I2C_SCL_GPIO   23
